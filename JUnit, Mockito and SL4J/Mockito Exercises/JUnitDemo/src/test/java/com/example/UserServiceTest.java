@@ -14,8 +14,8 @@ public class UserServiceTest {
 
         UserService userService = new UserService(mockEmailService);
 
-        userService.registerUser("saiabhiram@example.com");
+        userService.registerUser("sasank@example.com");
 
-        verify(mockEmailService).sendEmail("saiabhiram@example.com");
+        verify(mockEmailService).sendEmail("sasank@example.com");
     }
 }

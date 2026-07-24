@@ -12,7 +12,7 @@ public class ParameterizedLogging {
 
     public static void main(String[] args) {
 
-        String student = "Sai AbhiRam";
+        String student = "Sasank";
         int marks = 100;
         String result = "DOMINATED";
 

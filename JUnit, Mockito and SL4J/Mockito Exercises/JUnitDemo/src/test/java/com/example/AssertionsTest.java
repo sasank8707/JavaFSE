@@ -10,7 +10,7 @@ public class AssertionsTest {
 
         int a = 10;
         int b = 5;
-        String name = "Abhiram";
+        String name = "Sasank";
         String empty = null;
 
         assertEquals(15, a + b);
@@ -20,7 +20,7 @@ public class AssertionsTest {
         assertNotNull(name);
         assertNotEquals(20, a + b);
         assertSame(name, name);
-        assertNotSame(name, new String("Abhiram"));
+        assertNotSame(name, new String("Sasank"));
         assertArrayEquals(new int[]{1, 2, 3}, new int[]{1, 2, 3});
         assertThrows(ArithmeticException.class, () -> {
             int x = 10 / 0;
