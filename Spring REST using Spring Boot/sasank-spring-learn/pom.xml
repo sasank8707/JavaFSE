@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sasank</groupId>
-	<artifactId>sasank-spring-learn</artifactId>
+	<artifactId>sasank-sasank-spring-learn</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
