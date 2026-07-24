@@ -1,0 +1,11 @@
+target/
+.classpath
+.project
+.settings/
+.vscode/
+.springBeans
+bin/
+out/
+*.log
+Thumbs.db
+.DS_Store
